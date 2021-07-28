@@ -1,12 +1,3 @@
-#resource "aws_route53_zone" "main" {
-#  name = "devopslearn.net"
-#}
-
-
-#resource "aws_route53_zone" "example" {
-#  name = "blog.devopslearn.net"
-#}
-
 
 resource "aws_route53_record" "www" {
   zone_id = "Z01251981PKH0KFXPQG01"
